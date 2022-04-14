@@ -39,7 +39,7 @@ contract MultiSender {
         address addressERC721,
         address[] memory listReceivers,
         uint256[] memory listTokenId
-    ) public payable returns (bool) {
+    ) public returns (bool) {
         require(listReceivers.length == listTokenId.length, "Not same length");
 
         uint256 totalReceivers = listReceivers.length;
@@ -66,7 +66,7 @@ contract MultiSender {
         address addressERC20,
         address[] memory listReceivers,
         uint256 amount
-    ) public payable returns (bool) {
+    ) public returns (bool) {
         uint256 totalReceivers = listReceivers.length;
         IERC20 erc20 = IERC20(addressERC20);
         require(

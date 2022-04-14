@@ -1,10 +1,8 @@
 /**
-Successfully submitted source code for contract
-contracts/MultiSender.sol:MultiSender at 0x4d705598c4E0FEbEc7E7a5d3799A05c95C686714
-for verification on the block explorer. Waiting for verification result...
-
-Successfully verified contract MultiSender on Etherscan.
-https://rinkeby.etherscan.io/address/0x4d705598c4E0FEbEc7E7a5d3799A05c95C686714#code
+Compiled 1 Solidity file successfully
+Deploying contracts with the account: 0x3C90D8be4573F0582a2613e5CeFE8727431dB2f2
+Account balance: 1101492587609358469
+MultiSender address: 0xeA158c96690a4d46B9C5780b4a4cBD6EA3C02C2d
 
 
  */
@@ -13,7 +11,7 @@ require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-etherscan");
 
 const RINKEBY_PRIVATE_KEY =
-  "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+  "cd33bd88107336c284fff53d164e52dcdae1f8f17ce0ac4133e2fca133d8c101";
 module.exports = {
   solidity: "0.8.1",
   networks: {
@@ -23,6 +21,6 @@ module.exports = {
     },
   },
   etherscan: {
-    apiKey: `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`,
+    apiKey: `2ST54JNJTBR3CANFFTQA5RNEXKF65NN39E`,
   },
 };
