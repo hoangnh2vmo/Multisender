@@ -54,7 +54,7 @@ contract MultiSender {
 
         for (uint256 i = 0; i < totalReceivers; i++) {
             require(
-                erc721.isApprovedForAll(msg.sender, address(this)),
+                erc721.getApproved(listTokenId[i]) == address(this),
                 "Not approved"
             );
             erc721.transferFrom(msg.sender, listReceivers[i], listTokenId[i]);

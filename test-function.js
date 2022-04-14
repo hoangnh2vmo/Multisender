@@ -4,7 +4,7 @@ const web3 = new Web3(
   "https://rinkeby.infura.io/v3/afa9553623db44b388348836b654f819"
 );
 
-const contractAddress = "0x7113A888A7D33905F76AeD3E772fD7362b12B0cE";
+const contractAddress = "0xFB0bE0679CD61d86589746ab3bec7CF2Cc11f97d";
 const abi = require("./build/abi.json");
 const contract = new web3.eth.Contract(abi, contractAddress);
 const ownerAddress = "0x3C90D8be4573F0582a2613e5CeFE8727431dB2f2";
@@ -95,14 +95,14 @@ const sendMultipleETH = async (listReceivers, listAmounts) => {
 //   [web3.utils.toWei("0.001", "ether"), web3.utils.toWei("0.003", "ether")]
 // );
 
-// sendMultipleERC721(
-//   "0xfa11A2f947603604d3145573ADbA051710e646c5",
-//   [
-//     "0x627306090abaB3A6e1400e9345bC60c78a8BEf57",
-//     "0x20e5f90F0013e59Aa3B0cfeC832815db187b05FA",
-//   ],
-//   [5, 6]
-// );
+sendMultipleERC721(
+  "0x1FD9b21091779533Afb8FEDC58Fd83a2a7F0a281",
+  [
+    "0x627306090abaB3A6e1400e9345bC60c78a8BEf57",
+    "0x20e5f90F0013e59Aa3B0cfeC832815db187b05FA",
+  ],
+  [6, 7]
+);
 
 // sendMultipleERC20(
 //   "0xfCAC96faCbFc94bf8A58616290D678e8100Ddc4d",
