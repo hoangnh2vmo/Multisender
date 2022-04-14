@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.0;
 
+
+// TODO fix bug
 contract MultiSenderETH {
     function sendMultiETH( address payable[] memory listReceivers)
         public
@@ -20,4 +22,4 @@ contract MultiSenderETH {
     }
 }
 
-//          [ "0x75a5D7cDb85b01fe1657A15a397142D27F02DB0A" , "0xBC152B905ADD57ef1947D0877fa2DD7827a53a68"    ]
+// [ "0x75a5D7cDb85b01fe1657A15a397142D27F02DB0A" , "0xBC152B905ADD57ef1947D0877fa2DD7827a53a68"    ]
