@@ -95,14 +95,14 @@ const sendMultipleETH = async (listReceivers, listAmounts) => {
 //   [web3.utils.toWei("0.001", "ether"), web3.utils.toWei("0.003", "ether")]
 // );
 
-sendMultipleERC721(
-  "0x1FD9b21091779533Afb8FEDC58Fd83a2a7F0a281",
-  [
-    "0x627306090abaB3A6e1400e9345bC60c78a8BEf57",
-    "0x20e5f90F0013e59Aa3B0cfeC832815db187b05FA",
-  ],
-  [6, 7]
-);
+// sendMultipleERC721(
+//   "0x1FD9b21091779533Afb8FEDC58Fd83a2a7F0a281",
+//   [
+//     "0x627306090abaB3A6e1400e9345bC60c78a8BEf57",
+//     "0x20e5f90F0013e59Aa3B0cfeC832815db187b05FA",
+//   ],
+//   [8, 9]
+// );
 
 // sendMultipleERC20(
 //   "0xfCAC96faCbFc94bf8A58616290D678e8100Ddc4d",
