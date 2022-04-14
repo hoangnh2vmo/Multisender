@@ -1,11 +1,3 @@
-/**
-Compiled 1 Solidity file successfully
-Deploying contracts with the account: 0x3C90D8be4573F0582a2613e5CeFE8727431dB2f2
-Account balance: 1101492587609358469
-MultiSender address: 0xeA158c96690a4d46B9C5780b4a4cBD6EA3C02C2d
-
-
- */
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-etherscan");
